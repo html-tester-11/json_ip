@@ -3,9 +3,11 @@
 <script>
 var json = function (_data)
 {
- document.write(_data.IP);
+ 
+ document.getElementById("p1").innerHTML = _data.IP;
 };
 <div id='json'></div>
 <script src='https://siddh.gq/ip/?type=json'></script>
 
+ <p id="p1"> Ip</p>
 </html>
